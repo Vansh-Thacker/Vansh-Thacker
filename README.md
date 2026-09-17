@@ -46,4 +46,3 @@ Computer Science undergraduate at the University of Strathclyde and Technical Le
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Vansh-Thacker&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
-not all languages r coming in the language section
