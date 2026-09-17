@@ -42,6 +42,6 @@ Computer Science undergraduate at the University of Strathclyde and Technical Le
 ### 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=Vansh-Thacker&show_icons=true&theme=tokyonight&hide_border=true" alt="Vansh's GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Vansh-Thacker&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&count_private=true" alt="Top Languages" />
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Vansh-Thacker&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
