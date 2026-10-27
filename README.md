@@ -3,7 +3,7 @@
 </a>
 
 <p align="center">
-  <a href="https://vansh-thacker.github.io/Portfolio_Website/"><img src="https://img.shields.io/badge/Portfolio-Race_my_career_in_3D-E10600?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://vansh-thacker.github.io/Portfolio_Website/"><img src="https://img.shields.io/badge/Portfolio-View_my_work-E10600?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/vansh-thacker/"><img src="https://img.shields.io/badge/LinkedIn-vansh--thacker-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:vansh.thacker06@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_touch-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
@@ -71,7 +71,7 @@ public class Vansh extends SoftwareEngineer {
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
       <h3>🏦 Banking Portfolio Platform</h3>
       <sub><b>Java · SQL · REST APIs</b></sub>
       <p>Secure Java backend for a simulated banking application, exposed through REST APIs.</p>
@@ -79,16 +79,6 @@ public class Vansh extends SoftwareEngineer {
         <li>Designed the SQL schema and integrated the core banking logic.</li>
         <li>Built to preserve transactional integrity end to end.</li>
       </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏎️ 3D F1 Portfolio</h3>
-      <sub><b>JavaScript · Three.js · WebGL</b></sub>
-      <p>My portfolio as a lap of a race circuit: scroll to drive an F1 car past flags for milestones and into pit stops for work experience.</p>
-      <ul>
-        <li>Real-time 3D in the browser, no build step, served from GitHub Pages.</li>
-      </ul>
-      <a href="https://vansh-thacker.github.io/Portfolio_Website/"><img src="https://img.shields.io/badge/Take_a_lap-→-E10600?style=flat-square" alt="Visit the portfolio" /></a>
-      <a href="https://github.com/Vansh-Thacker/Portfolio_Website"><img src="https://img.shields.io/badge/Source-→-181717?style=flat-square&logo=github" alt="Portfolio source" /></a>
     </td>
   </tr>
 </table>
