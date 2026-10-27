@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+  <title id="t">Vansh Thacker, Software Engineer</title>
+  <desc id="d">F1 start-light banner: Vansh Thacker, Computer Science at the University of Strathclyde, backend systems, APIs and testing.</desc>
+  <defs>
+    <pattern id="carbon" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#0d0f13"/>
+      <rect width="4" height="8" fill="#111419"/>
+    </pattern>
+    <pattern id="check" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect width="24" height="24" fill="#f4f4f4"/>
+      <rect width="12" height="12" fill="#0d0f13"/>
+      <rect x="12" y="12" width="12" height="12" fill="#0d0f13"/>
+    </pattern>
+    <linearGradient id="fade" gradientUnits="userSpaceOnUse" x1="840" y1="0" x2="1200" y2="0">
+      <stop offset="0" stop-color="#f4f4f4" stop-opacity="0"/>
+      <stop offset="1" stop-color="#f4f4f4" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="checkFade"><rect width="1200" height="300" fill="url(#fade)"/></mask>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff2a1f" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#ff2a1f" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1200" height="300" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .name{font:900 italic 76px 'Titillium Web','Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#f4f4f4;letter-spacing:1px}
+    .name tspan.r{fill:#e10600}
+    .role{font:600 22px 'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#c9ccd1;letter-spacing:4px}
+    .mono{font:500 15px 'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#7d838c;letter-spacing:1px}
+    .tag{font:700 13px 'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace;fill:#0d0f13;letter-spacing:2px}
+    .lamp{fill:#2a1312}
+    .on{fill:#ff2a1f}
+    .glow{opacity:0}
+    /* five lights come on one by one, then all go out: lights out and away we go */
+    .l1 .on,.l1 .glow{animation:l1 6s infinite}
+    .l2 .on,.l2 .glow{animation:l2 6s infinite}
+    .l3 .on,.l3 .glow{animation:l3 6s infinite}
+    .l4 .on,.l4 .glow{animation:l4 6s infinite}
+    .l5 .on,.l5 .glow{animation:l5 6s infinite}
+    @keyframes l1{0%,9%{opacity:0}10%,59%{opacity:1}60%,100%{opacity:0}}
+    @keyframes l2{0%,19%{opacity:0}20%,59%{opacity:1}60%,100%{opacity:0}}
+    @keyframes l3{0%,29%{opacity:0}30%,59%{opacity:1}60%,100%{opacity:0}}
+    @keyframes l4{0%,39%{opacity:0}40%,59%{opacity:1}60%,100%{opacity:0}}
+    @keyframes l5{0%,49%{opacity:0}50%,59%{opacity:1}60%,100%{opacity:0}}
+    .go{opacity:0;animation:go 6s infinite}
+    @keyframes go{0%,60%{opacity:0}62%,92%{opacity:1}100%{opacity:0}}
+    .streak{animation:streak 6s infinite cubic-bezier(.6,0,.2,1)}
+    @keyframes streak{0%,60%{transform:translateX(-700px)}85%,100%{transform:translateX(1400px)}}
+    @media (prefers-reduced-motion:reduce){.on,.glow,.go,.streak{animation:none}.go{opacity:1}}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="url(#carbon)"/>
+    <!-- livery stripes -->
+    <polygon points="0,0 34,0 0,300" fill="#e10600"/>
+    <polygon points="44,0 56,0 14,300 2,300" fill="#e10600" opacity=".55"/>
+    <!-- chequered flag fading in on the right -->
+    <rect x="840" y="0" width="360" height="300" fill="url(#check)" mask="url(#checkFade)" opacity=".14"/>
+    <!-- speed streak after lights out -->
+    <g class="streak"><rect x="0" y="246" width="520" height="3" fill="#e10600"/><rect x="120" y="254" width="300" height="2" fill="#f4f4f4" opacity=".35"/></g>
+
+    <text x="84" y="70" class="mono">// SOFTWARE ENGINEER · GLASGOW, UK</text>
+    <text x="80" y="152" class="name">VANSH <tspan class="r">THACKER</tspan></text>
+    <text x="84" y="194" class="role">BACKEND · APIs · TESTING · REAL-TIME SYSTEMS</text>
+    <text x="84" y="228" class="mono">BSc (Hons) Computer Science @ University of Strathclyde · GDSC Technical Lead</text>
+
+    <!-- start light gantry -->
+    <g transform="translate(888,46)">
+      <rect x="-14" y="-12" width="276" height="74" rx="10" fill="#08090b" stroke="#24272d"/>
+      <g class="l1" transform="translate(16,25)"><circle r="40" class="glow" fill="url(#glow)"/><circle r="18" class="lamp"/><circle r="18" class="on"/></g>
+      <g class="l2" transform="translate(70,25)"><circle r="40" class="glow" fill="url(#glow)"/><circle r="18" class="lamp"/><circle r="18" class="on"/></g>
+      <g class="l3" transform="translate(124,25)"><circle r="40" class="glow" fill="url(#glow)"/><circle r="18" class="lamp"/><circle r="18" class="on"/></g>
+      <g class="l4" transform="translate(178,25)"><circle r="40" class="glow" fill="url(#glow)"/><circle r="18" class="lamp"/><circle r="18" class="on"/></g>
+      <g class="l5" transform="translate(232,25)"><circle r="40" class="glow" fill="url(#glow)"/><circle r="18" class="lamp"/><circle r="18" class="on"/></g>
+    </g>
+    <g class="go" transform="translate(904,148)">
+      <rect width="244" height="30" rx="4" fill="#e10600"/>
+      <text x="122" y="20" text-anchor="middle" class="tag" fill="#fff" style="fill:#fff">LIGHTS OUT · AWAY WE GO</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="299" rx="14" fill="none" stroke="#24272d"/>
+</svg>
